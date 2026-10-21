@@ -1,0 +1,16 @@
+scenarioKinds:
+  - id: primary
+    name: Primary
+    description: The usual successful path.
+  - id: alternate
+    name: Alternate
+    description: Another supported route to a successful result.
+  - id: validation
+    name: Validation
+    description: Input, a missing prerequisite or a missing grant stops the requested operation.
+  - id: edge
+    name: Edge
+    description: A failure, conflict, outside service or the passage of time changes the result.
+  - id: unattended
+    name: Unattended
+    description: TideMail does it on its own, on a timer, a push from the server or at startup.
